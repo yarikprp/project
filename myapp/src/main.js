@@ -21,6 +21,7 @@ new Vue({
     fb.initializeApp({
       apiKey: 'AIzaSyDfEZV6wz4JH4SPS_SQvXwohMRgp7zLRSM',
       authDomain: 'itc-ads-baed5.firebaseapp.com',
+      databaseURL: 'https://itc-ads-baed5-default-rtdb.firebaseio.com/',
       projectId: 'itc-ads-baed5',
       storageBucket: 'itc-ads-baed5.appspot.com',
       messagingSenderId: '248640665893',
