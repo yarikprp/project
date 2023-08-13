@@ -77,10 +77,11 @@
           const ad = {
             title: this.title,
             description: this.description,
-            promo: this.promo
+            promo: this.promo,
+            imageSrc: 'https://tortoizthemes.com/wp-content/uploads/2020/07/1_oZqGznbYXJfBlvGp5gQlYQ.jpeg'
           }
 
-          console.log(ad)
+          this.$store.dispatch('createAd', ad)
         }
       }
     }
