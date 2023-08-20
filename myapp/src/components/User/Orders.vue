@@ -51,7 +51,7 @@
         return this.$store.getters.loading
       },
       orders () {
-        return this.$store.getters.orders
+        return this.$store.getters.orders || []
       }
     },
     methods: {
